@@ -1,0 +1,22 @@
+.Task {
+    background: #a79595bb;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(65, 4, 32);
+}
+
+a{
+    text-decoration: none;
+    color:rgb(65, 4, 32);
+}
+
+a:visited{
+    color:rgb(65, 4, 32);
+}
+
+a:hover{
+    color: rgb(255, 236, 130);
+    text-decoration: none;
+}

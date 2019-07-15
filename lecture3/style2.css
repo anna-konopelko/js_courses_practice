@@ -1,0 +1,43 @@
+h2 {
+  font: bold;
+  font-size: 400;
+  color: #80024b;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+body, html {
+    height: 100%;
+    margin: 0, auto;
+    font-family: Arial;
+    text-align: center
+
+  }
+  
+  .tabset {
+    background-color: #80024b;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    font-size: 17px;
+    width: 50%;
+    border-radius: 30px;
+    margin: 0;
+  }
+  
+  
+  .tabcontent {
+    color: rgb(3, 3, 3);
+    display: none;
+  
+   
+  }
+  
+  #Winter {background-color: rgb(126, 178, 226);}
+  #Spring {background-color: rgb(104, 199, 104);}
+  #Summer {background-color: rgb(250, 252, 124);}
+  #Autumn {background-color: rgb(252, 186, 63);}

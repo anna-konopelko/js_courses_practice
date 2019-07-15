@@ -1,0 +1,56 @@
+h2 {
+  font: bold;
+  font-size: 400;
+  color: #80024b;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#btn_modal_window{
+  position: fixed;
+  color: rgb(251, 253, 253);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font: bolder;
+}
+
+button{
+  background-color: #80024b;
+    color: white;
+    padding: 15px 50px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    
+  }
+  .modal_content {
+    margin: 300px auto;
+    background-color: #fff;
+    padding: 30px;
+    width: 50%;
+    z-index: 99999;
+    border-radius: 12px;
+    
+  }
+  .close_modal_window {
+    color: #000;
+    float: right;
+    font-size: 30px;
+    font: bold;
+    cursor: pointer;
+    text-align: center;
+    
+  }
